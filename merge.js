@@ -1,5 +1,8 @@
 var arr = [9, 4, 6, 4, 0, 21, 34,1, 21, 56, -5, 0]
 
+/**
+ * Complexity: O(n log(n))
+ */
 function merge(array) {
 
     const left = array.slice(0, array.length / 2)
